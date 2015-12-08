@@ -3,15 +3,15 @@ using System.Net.Sockets;
 
 namespace KinectPlayerTracker.Sockets
 {
-  internal class UdpState
-  {
-    public UdpState(UdpClient udpClient, IPEndPoint remoteEndPoint)
+    internal class UdpState
     {
-      UdpClient = udpClient;
-      RemoteEndPoint = remoteEndPoint;
-    }
+        public UdpState(UdpClient udpClient, IPEndPoint remoteEndPoint)
+        {
+            UdpClient = udpClient;
+            RemoteEndPoint = remoteEndPoint;
+        }
 
-    public UdpClient UdpClient { get; private set; }
-    public IPEndPoint RemoteEndPoint { get; private set; }
-  }
+        public UdpClient UdpClient { get; private set; }
+        public IPEndPoint RemoteEndPoint { get; private set; }
+    }
 }
