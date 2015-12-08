@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KinectPlayerTracker.TrackingWindow", "KinectPlayerTracker.TrackingWindow\KinectPlayerTracker.TrackingWindow.csproj", "{E6BF485E-C42C-4BBF-8990-5D46BBFB0F7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KinectPlayerTracker.Toolkit", "KinectPlayerTracker.Toolkit\KinectPlayerTracker.Toolkit.csproj", "{B8A5AF2A-EB82-41B6-8CD5-6CA8F4B57758}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KinectPlayerTracker.TrackingConsole", "KinectPlayerTracker.TrackingConsole\KinectPlayerTracker.TrackingConsole.csproj", "{220D8A8B-1EB1-4536-8265-57455B3D90C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KinectPlayerTracker.Sockets", "KinectPlayerTracker.Sockets\KinectPlayerTracker.Sockets.csproj", "{28306FEA-4DEC-47BE-8F3C-27522E7CD564}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6BF485E-C42C-4BBF-8990-5D46BBFB0F7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6BF485E-C42C-4BBF-8990-5D46BBFB0F7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6BF485E-C42C-4BBF-8990-5D46BBFB0F7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6BF485E-C42C-4BBF-8990-5D46BBFB0F7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8A5AF2A-EB82-41B6-8CD5-6CA8F4B57758}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8A5AF2A-EB82-41B6-8CD5-6CA8F4B57758}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8A5AF2A-EB82-41B6-8CD5-6CA8F4B57758}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8A5AF2A-EB82-41B6-8CD5-6CA8F4B57758}.Release|Any CPU.Build.0 = Release|Any CPU
+		{220D8A8B-1EB1-4536-8265-57455B3D90C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{220D8A8B-1EB1-4536-8265-57455B3D90C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{220D8A8B-1EB1-4536-8265-57455B3D90C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{220D8A8B-1EB1-4536-8265-57455B3D90C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28306FEA-4DEC-47BE-8F3C-27522E7CD564}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28306FEA-4DEC-47BE-8F3C-27522E7CD564}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28306FEA-4DEC-47BE-8F3C-27522E7CD564}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28306FEA-4DEC-47BE-8F3C-27522E7CD564}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

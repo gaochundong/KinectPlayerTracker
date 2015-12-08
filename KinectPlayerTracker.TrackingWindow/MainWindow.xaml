@@ -1,0 +1,26 @@
+﻿<Window x:Class="KinectPlayerTracker.TrackingWindow.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="KinectPlayerTracker" Height="768" Width="1024"
+        Loaded="OnWindowLoaded"
+        Closing="OnWindowClosing"
+        Closed="OnWindowClosed" >
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" Background="Green">
+            <Canvas Name="playField" Background="White"
+                    SizeChanged="OnPlayFieldSizeChanged" 
+                    HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                    />
+        </Grid>
+        <Grid Grid.Row="1">
+            <TextBlock Name="textField" 
+                       TextAlignment="Left"
+                       HorizontalAlignment="Stretch" VerticalAlignment="Center"
+                       />
+        </Grid>
+    </Grid>
+</Window>
